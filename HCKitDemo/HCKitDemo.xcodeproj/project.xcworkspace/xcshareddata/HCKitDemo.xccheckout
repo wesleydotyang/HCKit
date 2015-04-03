@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8D2037A2-A295-4CE4-85B8-BCEE1AB20494</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HCKitDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>365134E6F65570D3AF3590267005DF0ACFB2FBF9</key>
+		<string>https://github.com/huachen206/HCKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HCKitDemo/HCKitDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>365134E6F65570D3AF3590267005DF0ACFB2FBF9</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huachen206/HCKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>365134E6F65570D3AF3590267005DF0ACFB2FBF9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>365134E6F65570D3AF3590267005DF0ACFB2FBF9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HCKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>
