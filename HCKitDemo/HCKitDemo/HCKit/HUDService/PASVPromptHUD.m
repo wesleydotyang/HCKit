@@ -7,7 +7,7 @@
 //
 
 #import "PASVPromptHUD.h"
-
+#import "HCUtilityMacro.h"
 @implementation PASVPromptHUD
 
 +(instancetype) shared{

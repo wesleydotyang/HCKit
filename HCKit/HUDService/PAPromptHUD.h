@@ -9,7 +9,7 @@
 #import "PAHUD.h"
 #import "PAHUDCommon.h"
 #import "PAPromptHUDDelegate.h"
-
+#import "UIImage+Extend.h"
 // reserved class
 @interface PAPromptHUD : PAHUD
 @property (nonatomic, weak) id<PAPromptHUDDelegate> delegate;

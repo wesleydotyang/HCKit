@@ -7,6 +7,7 @@
 //
 
 #import "HCBasicAsyncer.h"
+#import "HCUtilityMacro.h"
 NSString * const kKeyExecutedError = @"KeyExecutedError";
 NSString * const kKeyExecutedExpectedResult = @"KeyExecutedExpectedResult";
 

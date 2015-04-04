@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-
+#import "UIImage+Extend.h"
 //Image downsizing relevant
 #define kPAMaxImageSizeMB 5.0f // The resulting image will be (x)MB of uncompressed image data.
 #define kSourceImageTileSizeMB 5.0f // The tile size will be (x)MB of uncompressed image data.

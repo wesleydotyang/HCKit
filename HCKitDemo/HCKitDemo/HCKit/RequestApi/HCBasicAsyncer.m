@@ -5,8 +5,9 @@
 //  Created by 花晨 on 14-7-16.
 //  Copyright (c) 2014年 花晨. All rights reserved.
 //
-#import "HCKit.h"
+
 #import "HCBasicAsyncer.h"
+#import "HCUtilityMacro.h"
 NSString * const kKeyExecutedError = @"KeyExecutedError";
 NSString * const kKeyExecutedExpectedResult = @"KeyExecutedExpectedResult";
 

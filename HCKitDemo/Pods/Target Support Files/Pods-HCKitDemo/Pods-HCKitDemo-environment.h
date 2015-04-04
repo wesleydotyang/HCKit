@@ -114,54 +114,6 @@
 #define COCOAPODS_VERSION_MINOR_HTDelegateProxy 0
 #define COCOAPODS_VERSION_PATCH_HTDelegateProxy 1
 
-// HexColors
-#define COCOAPODS_POD_AVAILABLE_HexColors
-#define COCOAPODS_VERSION_MAJOR_HexColors 2
-#define COCOAPODS_VERSION_MINOR_HexColors 2
-#define COCOAPODS_VERSION_PATCH_HexColors 1
-
-// JSONModel
-#define COCOAPODS_POD_AVAILABLE_JSONModel
-#define COCOAPODS_VERSION_MAJOR_JSONModel 1
-#define COCOAPODS_VERSION_MINOR_JSONModel 0
-#define COCOAPODS_VERSION_PATCH_JSONModel 2
-
-// ReactiveCocoa
-#define COCOAPODS_POD_AVAILABLE_ReactiveCocoa
-#define COCOAPODS_VERSION_MAJOR_ReactiveCocoa 2
-#define COCOAPODS_VERSION_MINOR_ReactiveCocoa 3
-#define COCOAPODS_VERSION_PATCH_ReactiveCocoa 1
-
-// ReactiveCocoa/Core
-#define COCOAPODS_POD_AVAILABLE_ReactiveCocoa_Core
-#define COCOAPODS_VERSION_MAJOR_ReactiveCocoa_Core 2
-#define COCOAPODS_VERSION_MINOR_ReactiveCocoa_Core 3
-#define COCOAPODS_VERSION_PATCH_ReactiveCocoa_Core 1
-
-// ReactiveCocoa/UI
-#define COCOAPODS_POD_AVAILABLE_ReactiveCocoa_UI
-#define COCOAPODS_VERSION_MAJOR_ReactiveCocoa_UI 2
-#define COCOAPODS_VERSION_MINOR_ReactiveCocoa_UI 3
-#define COCOAPODS_VERSION_PATCH_ReactiveCocoa_UI 1
-
-// ReactiveCocoa/no-arc
-#define COCOAPODS_POD_AVAILABLE_ReactiveCocoa_no_arc
-#define COCOAPODS_VERSION_MAJOR_ReactiveCocoa_no_arc 2
-#define COCOAPODS_VERSION_MINOR_ReactiveCocoa_no_arc 3
-#define COCOAPODS_VERSION_PATCH_ReactiveCocoa_no_arc 1
-
-// SDWebImage
-#define COCOAPODS_POD_AVAILABLE_SDWebImage
-#define COCOAPODS_VERSION_MAJOR_SDWebImage 3
-#define COCOAPODS_VERSION_MINOR_SDWebImage 7
-#define COCOAPODS_VERSION_PATCH_SDWebImage 2
-
-// SDWebImage/Core
-#define COCOAPODS_POD_AVAILABLE_SDWebImage_Core
-#define COCOAPODS_VERSION_MAJOR_SDWebImage_Core 3
-#define COCOAPODS_VERSION_MINOR_SDWebImage_Core 7
-#define COCOAPODS_VERSION_PATCH_SDWebImage_Core 2
-
 // SIAlertView
 #define COCOAPODS_POD_AVAILABLE_SIAlertView
 #define COCOAPODS_VERSION_MAJOR_SIAlertView 1
@@ -173,24 +125,6 @@
 #define COCOAPODS_VERSION_MAJOR_SVProgressHUD 1
 #define COCOAPODS_VERSION_MINOR_SVProgressHUD 1
 #define COCOAPODS_VERSION_PATCH_SVProgressHUD 3
-
-// TPKeyboardAvoiding
-#define COCOAPODS_POD_AVAILABLE_TPKeyboardAvoiding
-#define COCOAPODS_VERSION_MAJOR_TPKeyboardAvoiding 1
-#define COCOAPODS_VERSION_MINOR_TPKeyboardAvoiding 2
-#define COCOAPODS_VERSION_PATCH_TPKeyboardAvoiding 6
-
-// TSMessages
-#define COCOAPODS_POD_AVAILABLE_TSMessages
-#define COCOAPODS_VERSION_MAJOR_TSMessages 0
-#define COCOAPODS_VERSION_MINOR_TSMessages 9
-#define COCOAPODS_VERSION_PATCH_TSMessages 12
-
-// ViewUtils
-#define COCOAPODS_POD_AVAILABLE_ViewUtils
-#define COCOAPODS_VERSION_MAJOR_ViewUtils 1
-#define COCOAPODS_VERSION_MINOR_ViewUtils 1
-#define COCOAPODS_VERSION_PATCH_ViewUtils 2
 
 // libextobjc
 #define COCOAPODS_POD_AVAILABLE_libextobjc

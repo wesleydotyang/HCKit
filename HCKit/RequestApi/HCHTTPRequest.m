@@ -7,6 +7,7 @@
 //
 
 #import "HCHTTPRequest.h"
+#import "NSObject+UserInfo.h"
 #define kBaseHTTPURL @" sds"
 
 NSString * const kInfoKeyHTTPCookie = @"InfoKey_HTTPCookie";
@@ -44,11 +45,19 @@ NSInteger const kHTTPResultCodeLogicSucceed = 200;
 //    return self;
 //}
 
+-(NSString *)uuid{
+    CFUUIDRef uuidObj = CFUUIDCreate(nil);
+    CFStringRef uuidString = CFUUIDCreateString(nil, uuidObj);
+    CFRelease(uuidObj);
+    NSString *value = (__bridge_transfer NSString *)uuidString;
+    return value;
+}
+
 - (instancetype)initWithAPI:(HCRequestBaseApi *)api
 {
     if (self = [super init]) {
         _api = api;
-        _identifier = [[NSString uuid] copy];
+        _identifier = [[self uuid] copy];
     }
     return self;
 }

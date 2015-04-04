@@ -8,7 +8,7 @@
 
 #import "PAStrokeHUDView.h"
 #import "PAPathView.h"
-#import "HCKit.h"
+#import "HCUtilityMacro.h"
 #define pi 3.14159265359
 #define DEGREES_TO_RADIANS(degrees)  ((pi * degrees)/ 180)
 

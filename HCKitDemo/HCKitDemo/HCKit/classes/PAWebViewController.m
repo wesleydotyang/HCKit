@@ -7,13 +7,16 @@
 //
 #define kToolBarHeight  44
 #define HUD_WEBLODING @"载入中..."
+#define k_loading_HUD                    @"努力加载中..."
+
 #import "PAWebViewController.h"
 #import "UIDevice+Resolutions.h"
 #import "BABasicNavigationController.h"
 #import "PAHUD.h"
 #import "PAHUDService.h"
+#import "HCUtilityMacro.h"
+#import "HCUtilityFuc.h"
 #import "SIAlertView.h"
-#define k_loading_HUD                    @"努力加载中..."
 
 @interface PAWebViewController (){
     NSMutableURLRequest *_request;
@@ -117,7 +120,7 @@
     if (self.toolBar) {
         return;
     }
-    float webViewHeight = self.view.height;
+    float webViewHeight = self.view.bounds.size.height;
    
     self.toolBar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, webViewHeight-kToolBarHeight, 320, kToolBarHeight)];
     [_toolBar setBackgroundColor:UIColorFromRGB(0xf5f5f5)];
@@ -152,7 +155,7 @@
     
 }
 -(void) layoutWebView {
-    float webViewHeight = self.view.height;
+    float webViewHeight = self.view.bounds.size.height;
     if (_showToolBar) {
         webViewHeight -= kToolBarHeight;
     }

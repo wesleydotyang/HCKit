@@ -7,7 +7,7 @@
 //
 
 #import "PAUserDiskCache.h"
-#import "HCKit.h"
+#import "HCUtilityMacro.h"
 
 @implementation PAUserDiskCache
 

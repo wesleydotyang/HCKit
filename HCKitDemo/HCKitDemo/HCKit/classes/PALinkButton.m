@@ -7,9 +7,8 @@
 //
 
 #import "PALinkButton.h"
-#import "HCKit.h"
+#import "HCUtilityMacro.h"
 #define kLinkButtonTextColor UIColorFromRGB(0x2581c2)
-
 @implementation PALinkButton
 
 - (id)initWithFrame:(CGRect)frame

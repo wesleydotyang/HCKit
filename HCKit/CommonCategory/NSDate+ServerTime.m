@@ -7,7 +7,8 @@
 //
 
 #import "NSDate+ServerTime.h"
-
+#import <QuartzCore/QuartzCore.h>
+#import "NSString+Extend.h"
 
 static NSTimeInterval   _ServerTimeIntervalToSysRunTime = 0;
 

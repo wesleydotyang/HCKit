@@ -8,6 +8,10 @@
 
 #import "UIBarButtonItem+Extend.h"
 #import "UIView+BlocksKit.h"
+#import "HCUtilityMacro.h"
+
+#define pBackArrowImageName_new @"back_black"
+#define kBarRightButtonTitleColor_new UIColorFromRGB(0x1d1d1d)
 
 #define BAR_BUTTON_MIN_WIDTH 40
 #define BAR_BUTTON_MIN_HEIGHT 60
@@ -24,7 +28,7 @@
     }];
     
     UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftButton];
-    barButtonItem.width = leftButton.size.width;
+    barButtonItem.width = leftButton.bounds.size.width;
     return barButtonItem;
 }
 //+ (instancetype)backBarButtonItemWhiteStyleWithBlock:(void(^)())block
@@ -51,7 +55,7 @@
     rightButton.titleLabel.font = [UIFont systemFontOfSize:BAR_BUTTON_FONT_SIZE];
     [rightButton sizeToFit];
     
-    CGSize size = rightButton.size;
+    CGSize size = rightButton.bounds.size;
     size.width  = size.width  < BAR_BUTTON_MIN_WIDTH  ? BAR_BUTTON_MIN_WIDTH  : size.width;
     size.height = size.height < BAR_BUTTON_MIN_HEIGHT ? BAR_BUTTON_MIN_HEIGHT : size.height;
     rightButton.frame = (CGRect){{0, 0}, size};
@@ -62,7 +66,7 @@
     }];
     
     UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rightButton];
-    barButtonItem.width = rightButton.size.width;
+    barButtonItem.width = rightButton.bounds.size.width;
     return barButtonItem;
 }
 
@@ -79,7 +83,7 @@
     }];
     
     UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] initWithCustomView:imageButton];
-    barButtonItem.width = imageButton.size.width;
+    barButtonItem.width = imageButton.bounds.size.width;
     return barButtonItem;
 }
 

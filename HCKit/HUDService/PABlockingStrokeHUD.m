@@ -8,6 +8,7 @@
 
 #import "PABlockingStrokeHUD.h"
 #import "PAStrokeHUDView.h"
+#import "HCUtilityMacro.h"
 
 static NSInteger showCount = 0;
 

@@ -17,3 +17,4 @@
 #import "UIView+Extend.h"
 #import "NSObject+UserInfo.h"
 #import "UIBarButtonItem+Extend.h"
+#import "UIDevice+Resolutions.h"

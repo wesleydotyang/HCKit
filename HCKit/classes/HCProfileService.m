@@ -8,6 +8,7 @@
 
 #import "HCProfileService.h"
 #define DefaultUpdateTime 60*60
+#import "extobjc.h"
 @interface HCProfileService()
 @end
 

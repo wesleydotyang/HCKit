@@ -8,7 +8,7 @@
 
 #import "PAImageProcessHelper.h"
 #import "UIImage+Extend.h"
-#import "HCKit.h"
+#import "HCUtilityMacro.h"
 @implementation PAImageProcessHelper
 
 

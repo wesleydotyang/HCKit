@@ -7,6 +7,7 @@
 //
 
 #import "HCDiskCache.h"
+#import "HCUtilityMacro.h"
 #define DiskCachePath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:@"DiskCache"]
 
 @interface HCDiskCache()

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42D922085EE63C509EEFDB40"
+               BlueprintIdentifier = "920034022A7894193E3FFAA6"
                BuildableName = "libPods-HCKitDemo-HTDelegateProxy.a"
                BlueprintName = "Pods-HCKitDemo-HTDelegateProxy"
                ReferencedContainer = "container:Pods.xcodeproj">

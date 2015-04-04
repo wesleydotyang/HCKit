@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BFEE94BE1ACE80910092AB9A"
+               BlueprintIdentifier = "BF49A00A1ACF6D8A006DACF4"
                BuildableName = "HCKitDemo.app"
                BlueprintName = "HCKitDemo"
                ReferencedContainer = "container:HCKitDemo.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BFEE94D71ACE80910092AB9A"
+               BlueprintIdentifier = "BF49A0231ACF6D8A006DACF4"
                BuildableName = "HCKitDemoTests.xctest"
                BlueprintName = "HCKitDemoTests"
                ReferencedContainer = "container:HCKitDemo.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BFEE94D71ACE80910092AB9A"
+               BlueprintIdentifier = "BF49A0231ACF6D8A006DACF4"
                BuildableName = "HCKitDemoTests.xctest"
                BlueprintName = "HCKitDemoTests"
                ReferencedContainer = "container:HCKitDemo.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BFEE94BE1ACE80910092AB9A"
+            BlueprintIdentifier = "BF49A00A1ACF6D8A006DACF4"
             BuildableName = "HCKitDemo.app"
             BlueprintName = "HCKitDemo"
             ReferencedContainer = "container:HCKitDemo.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BFEE94BE1ACE80910092AB9A"
+            BlueprintIdentifier = "BF49A00A1ACF6D8A006DACF4"
             BuildableName = "HCKitDemo.app"
             BlueprintName = "HCKitDemo"
             ReferencedContainer = "container:HCKitDemo.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BFEE94BE1ACE80910092AB9A"
+            BlueprintIdentifier = "BF49A00A1ACF6D8A006DACF4"
             BuildableName = "HCKitDemo.app"
             BlueprintName = "HCKitDemo"
             ReferencedContainer = "container:HCKitDemo.xcodeproj">
