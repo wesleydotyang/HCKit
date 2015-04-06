@@ -135,12 +135,16 @@ Pod::Spec.new do |s|
 
 
 s.subspec "RequestApi" do |ss|
-    ss.source_files = "HCKit/RequestApi/HCBasicAsyncer.{h,m}", "HCKit/HCRequestBaseApi.{h,m}", "HCKit/HCHTTPRequest.{h,m}", "Asyncing.h"
+    ss.source_files = "HCKit/RequestApi/HCBasicAsyncer.{h,m}", "HCKit/RequestApi/HCRequestBaseApi.{h,m}", "HCKit/RequestApi/HCHTTPRequest.{h,m}", "HCKit/RequestApi/Asyncing.h"
 end
 
 s.subspec "Utility" do |ss|
     ss.source_files = "HCKit/Utility/HCUtilityFuc.h","HCKit/Utility/HCUtilityMacro.h"
 
+end
+s.subspec "CommonCategory" do |ss|
+    ss.source_files = "HCKit/CommonCategory/NSData+Extend.{h,m}","HCKit/CommonCategory/NSDate+Extend.{h,m}","HCKit/CommonCategory/NSDate+ServerTime.{h,m}","HCKit/CommonCategory/NSObject+UserInfo.{h,m}","HCKit/CommonCategory/NSString+Extend.{h,m}","HCKit/CommonCategory/NSString+HXAddtions.{h,m}","HCKit/CommonCategory/UIBarButtonItem+Extend.{h,m}","HCKit/CommonCategory/UIDevice+Resolutions.{h,m}","HCKit/CommonCategory/UIImage+Extend.{h,m}","HCKit/CommonCategory/UIImage+ImageBlur.{h,m}","HCKit/CommonCategory/NUILabel+Extend.{h,m}","HCKit/CommonCategory/UITableView+Appearance.{h,m}","HCKit/CommonCategory/UITextView+Appearance.{h,m}","HCKit/CommonCategory/UIView+Extend.{h,m}"
+    ss.public_header_files = "CommonCategory.h"
 end
 
 end
