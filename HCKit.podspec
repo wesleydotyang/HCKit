@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+   s.resources = "HCKit/reSources/UIBarButtonItem+Extend.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -132,14 +132,14 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-	s.dependency  'BlocksKit', '~> 2.2.3'
+	s.ios.dependency  'BlocksKit', '~> 2.2.3'
 
 
 s.subspec "RequestApi" do |ss|
    	 ss.source_files = "HCKit/RequestApi/*.*"
    	ss.ios.dependency  'AFNetworking', '~> 2.3.1'
 	ss.ios.dependency  'libextobjc', '~> 0.4'
-    ss.ios.deployment_target = “6.0”
+    ss.ios.deployment_target = "6.0"
 
 
 end
@@ -154,11 +154,12 @@ s.subspec "CommonCategory" do |ss|
 end
 s.subspec "HCSQLHelp" do |ss|
   	  ss.source_files = "HCKit/HCSQLHelp/*.*"
-end
-s.subspec "reSources" do |ss|
-    	ss.source_files = "HCKit/sources/*.*"
 	ss.ios.dependency  'FMDB', '~> 2.3'
 	ss.ios.dependency  'FMDBHelpers', '~> 0.0.7'
+
+end
+s.subspec "reSources" do |ss|
+    	ss.source_files = "HCKit/reSources/*.*"
 
 end
 s.subspec "Classes" do |ss|

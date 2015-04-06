@@ -15,47 +15,7 @@
 		BF49A01C1ACF6D8A006DACF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF49A01B1ACF6D8A006DACF4 /* Images.xcassets */; };
 		BF49A01F1ACF6D8A006DACF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF49A01D1ACF6D8A006DACF4 /* LaunchScreen.xib */; };
 		BF49A02B1ACF6D8A006DACF4 /* HCKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A02A1ACF6D8A006DACF4 /* HCKitDemoTests.m */; };
-		BF49A1691ACF9B82006DACF4 /* BABasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A10A1ACF9B82006DACF4 /* BABasicNavigationController.m */; };
-		BF49A16A1ACF9B82006DACF4 /* BABasicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A10C1ACF9B82006DACF4 /* BABasicTableViewController.m */; };
-		BF49A16B1ACF9B82006DACF4 /* BABasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A10E1ACF9B82006DACF4 /* BABasicViewController.m */; };
-		BF49A16C1ACF9B82006DACF4 /* HCDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1111ACF9B82006DACF4 /* HCDiskCache.m */; };
-		BF49A16D1ACF9B82006DACF4 /* HCProfileService.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1131ACF9B82006DACF4 /* HCProfileService.m */; };
-		BF49A16E1ACF9B82006DACF4 /* PAImageProcessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1151ACF9B82006DACF4 /* PAImageProcessHelper.m */; };
-		BF49A16F1ACF9B82006DACF4 /* PALinkButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1171ACF9B82006DACF4 /* PALinkButton.m */; };
-		BF49A1701ACF9B82006DACF4 /* PAUserDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1191ACF9B82006DACF4 /* PAUserDiskCache.m */; };
-		BF49A1711ACF9B82006DACF4 /* PAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A11B1ACF9B82006DACF4 /* PAWebViewController.m */; };
-		BF49A1721ACF9B82006DACF4 /* NSData+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A11F1ACF9B82006DACF4 /* NSData+Extend.m */; };
-		BF49A1731ACF9B82006DACF4 /* NSDate+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1211ACF9B82006DACF4 /* NSDate+Extend.m */; };
-		BF49A1741ACF9B82006DACF4 /* NSDate+ServerTime.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1231ACF9B82006DACF4 /* NSDate+ServerTime.m */; };
-		BF49A1751ACF9B82006DACF4 /* NSObject+UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1251ACF9B82006DACF4 /* NSObject+UserInfo.m */; };
-		BF49A1761ACF9B82006DACF4 /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1271ACF9B82006DACF4 /* NSString+Extend.m */; };
-		BF49A1771ACF9B82006DACF4 /* NSString+HXAddtions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1291ACF9B82006DACF4 /* NSString+HXAddtions.m */; };
-		BF49A1781ACF9B82006DACF4 /* UIBarButtonItem+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A12B1ACF9B82006DACF4 /* UIBarButtonItem+Extend.m */; };
-		BF49A1791ACF9B82006DACF4 /* UIDevice+Resolutions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A12D1ACF9B82006DACF4 /* UIDevice+Resolutions.m */; };
-		BF49A17A1ACF9B82006DACF4 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A12F1ACF9B82006DACF4 /* UIImage+Extend.m */; };
-		BF49A17B1ACF9B82006DACF4 /* UIImage+ImageBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1311ACF9B82006DACF4 /* UIImage+ImageBlur.m */; };
-		BF49A17C1ACF9B82006DACF4 /* UILabel+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1331ACF9B82006DACF4 /* UILabel+Extend.m */; };
-		BF49A17D1ACF9B82006DACF4 /* UITableView+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1351ACF9B82006DACF4 /* UITableView+Appearance.m */; };
-		BF49A17E1ACF9B82006DACF4 /* UITextView+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1371ACF9B82006DACF4 /* UITextView+Appearance.m */; };
-		BF49A17F1ACF9B82006DACF4 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1391ACF9B82006DACF4 /* UIView+Extend.m */; };
-		BF49A1801ACF9B82006DACF4 /* HCBaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A13D1ACF9B82006DACF4 /* HCBaseDAO.m */; };
-		BF49A1811ACF9B82006DACF4 /* HCBaseDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A13F1ACF9B82006DACF4 /* HCBaseDBHelper.m */; };
-		BF49A1821ACF9B82006DACF4 /* HCDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1411ACF9B82006DACF4 /* HCDBManager.m */; };
-		BF49A1831ACF9B82006DACF4 /* SQLBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1431ACF9B82006DACF4 /* SQLBaseModel.m */; };
-		BF49A1841ACF9B82006DACF4 /* SQLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1451ACF9B82006DACF4 /* SQLHelper.m */; };
-		BF49A1851ACF9B82006DACF4 /* TestSQLBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1471ACF9B82006DACF4 /* TestSQLBaseModel.m */; };
-		BF49A1861ACF9B82006DACF4 /* PABlockingHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A14A1ACF9B82006DACF4 /* PABlockingHUD.m */; };
-		BF49A1871ACF9B82006DACF4 /* PABlockingStrokeHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A14D1ACF9B82006DACF4 /* PABlockingStrokeHUD.m */; };
-		BF49A1881ACF9B82006DACF4 /* PAHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A14F1ACF9B82006DACF4 /* PAHUD.m */; };
-		BF49A1891ACF9B82006DACF4 /* PAHUDService.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1521ACF9B82006DACF4 /* PAHUDService.m */; };
-		BF49A18A1ACF9B82006DACF4 /* PAPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1541ACF9B82006DACF4 /* PAPathView.m */; };
-		BF49A18B1ACF9B82006DACF4 /* PAPromptHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1561ACF9B82006DACF4 /* PAPromptHUD.m */; };
-		BF49A18C1ACF9B82006DACF4 /* PAStrokeHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1591ACF9B82006DACF4 /* PAStrokeHUDView.m */; };
-		BF49A18D1ACF9B82006DACF4 /* PASVPromptHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A15B1ACF9B82006DACF4 /* PASVPromptHUD.m */; };
-		BF49A18E1ACF9B82006DACF4 /* HCBasicAsyncer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A15F1ACF9B82006DACF4 /* HCBasicAsyncer.m */; };
-		BF49A18F1ACF9B82006DACF4 /* HCHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1611ACF9B82006DACF4 /* HCHTTPRequest.m */; };
-		BF49A1901ACF9B82006DACF4 /* HCRequestBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1631ACF9B82006DACF4 /* HCRequestBaseApi.m */; };
-		BF49A1C51AD2554A006DACF4 /* UIBarButtonItem+Extend.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF49A1C41AD2554A006DACF4 /* UIBarButtonItem+Extend.bundle */; };
+		BF49A1C71AD2689C006DACF4 /* HCKit in Resources */ = {isa = PBXBuildFile; fileRef = BF49A1C61AD2689C006DACF4 /* HCKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,95 +46,7 @@
 		BF49A0291ACF6D8A006DACF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF49A02A1ACF6D8A006DACF4 /* HCKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCKitDemoTests.m; sourceTree = "<group>"; };
 		BF49A0FE1ACF8BA9006DACF4 /* HCKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HCKit-Prefix.pch"; sourceTree = "<group>"; };
-		BF49A1091ACF9B82006DACF4 /* BABasicNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BABasicNavigationController.h; sourceTree = "<group>"; };
-		BF49A10A1ACF9B82006DACF4 /* BABasicNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BABasicNavigationController.m; sourceTree = "<group>"; };
-		BF49A10B1ACF9B82006DACF4 /* BABasicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BABasicTableViewController.h; sourceTree = "<group>"; };
-		BF49A10C1ACF9B82006DACF4 /* BABasicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BABasicTableViewController.m; sourceTree = "<group>"; };
-		BF49A10D1ACF9B82006DACF4 /* BABasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BABasicViewController.h; sourceTree = "<group>"; };
-		BF49A10E1ACF9B82006DACF4 /* BABasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BABasicViewController.m; sourceTree = "<group>"; };
-		BF49A1101ACF9B82006DACF4 /* HCDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDiskCache.h; sourceTree = "<group>"; };
-		BF49A1111ACF9B82006DACF4 /* HCDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDiskCache.m; sourceTree = "<group>"; };
-		BF49A1121ACF9B82006DACF4 /* HCProfileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCProfileService.h; sourceTree = "<group>"; };
-		BF49A1131ACF9B82006DACF4 /* HCProfileService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCProfileService.m; sourceTree = "<group>"; };
-		BF49A1141ACF9B82006DACF4 /* PAImageProcessHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAImageProcessHelper.h; sourceTree = "<group>"; };
-		BF49A1151ACF9B82006DACF4 /* PAImageProcessHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAImageProcessHelper.m; sourceTree = "<group>"; };
-		BF49A1161ACF9B82006DACF4 /* PALinkButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PALinkButton.h; sourceTree = "<group>"; };
-		BF49A1171ACF9B82006DACF4 /* PALinkButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PALinkButton.m; sourceTree = "<group>"; };
-		BF49A1181ACF9B82006DACF4 /* PAUserDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAUserDiskCache.h; sourceTree = "<group>"; };
-		BF49A1191ACF9B82006DACF4 /* PAUserDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAUserDiskCache.m; sourceTree = "<group>"; };
-		BF49A11A1ACF9B82006DACF4 /* PAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAWebViewController.h; sourceTree = "<group>"; };
-		BF49A11B1ACF9B82006DACF4 /* PAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAWebViewController.m; sourceTree = "<group>"; };
-		BF49A11D1ACF9B82006DACF4 /* CommonCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCategory.h; sourceTree = "<group>"; };
-		BF49A11E1ACF9B82006DACF4 /* NSData+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Extend.h"; sourceTree = "<group>"; };
-		BF49A11F1ACF9B82006DACF4 /* NSData+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Extend.m"; sourceTree = "<group>"; };
-		BF49A1201ACF9B82006DACF4 /* NSDate+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extend.h"; sourceTree = "<group>"; };
-		BF49A1211ACF9B82006DACF4 /* NSDate+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extend.m"; sourceTree = "<group>"; };
-		BF49A1221ACF9B82006DACF4 /* NSDate+ServerTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ServerTime.h"; sourceTree = "<group>"; };
-		BF49A1231ACF9B82006DACF4 /* NSDate+ServerTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ServerTime.m"; sourceTree = "<group>"; };
-		BF49A1241ACF9B82006DACF4 /* NSObject+UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UserInfo.h"; sourceTree = "<group>"; };
-		BF49A1251ACF9B82006DACF4 /* NSObject+UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UserInfo.m"; sourceTree = "<group>"; };
-		BF49A1261ACF9B82006DACF4 /* NSString+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extend.h"; sourceTree = "<group>"; };
-		BF49A1271ACF9B82006DACF4 /* NSString+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extend.m"; sourceTree = "<group>"; };
-		BF49A1281ACF9B82006DACF4 /* NSString+HXAddtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HXAddtions.h"; sourceTree = "<group>"; };
-		BF49A1291ACF9B82006DACF4 /* NSString+HXAddtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HXAddtions.m"; sourceTree = "<group>"; };
-		BF49A12A1ACF9B82006DACF4 /* UIBarButtonItem+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extend.h"; sourceTree = "<group>"; };
-		BF49A12B1ACF9B82006DACF4 /* UIBarButtonItem+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extend.m"; sourceTree = "<group>"; };
-		BF49A12C1ACF9B82006DACF4 /* UIDevice+Resolutions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Resolutions.h"; sourceTree = "<group>"; };
-		BF49A12D1ACF9B82006DACF4 /* UIDevice+Resolutions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Resolutions.m"; sourceTree = "<group>"; };
-		BF49A12E1ACF9B82006DACF4 /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
-		BF49A12F1ACF9B82006DACF4 /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
-		BF49A1301ACF9B82006DACF4 /* UIImage+ImageBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageBlur.h"; sourceTree = "<group>"; };
-		BF49A1311ACF9B82006DACF4 /* UIImage+ImageBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageBlur.m"; sourceTree = "<group>"; };
-		BF49A1321ACF9B82006DACF4 /* UILabel+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extend.h"; sourceTree = "<group>"; };
-		BF49A1331ACF9B82006DACF4 /* UILabel+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extend.m"; sourceTree = "<group>"; };
-		BF49A1341ACF9B82006DACF4 /* UITableView+Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Appearance.h"; sourceTree = "<group>"; };
-		BF49A1351ACF9B82006DACF4 /* UITableView+Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Appearance.m"; sourceTree = "<group>"; };
-		BF49A1361ACF9B82006DACF4 /* UITextView+Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Appearance.h"; sourceTree = "<group>"; };
-		BF49A1371ACF9B82006DACF4 /* UITextView+Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Appearance.m"; sourceTree = "<group>"; };
-		BF49A1381ACF9B82006DACF4 /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
-		BF49A1391ACF9B82006DACF4 /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
-		BF49A13A1ACF9B82006DACF4 /* HCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCKit.h; sourceTree = "<group>"; };
-		BF49A13C1ACF9B82006DACF4 /* HCBaseDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBaseDAO.h; sourceTree = "<group>"; };
-		BF49A13D1ACF9B82006DACF4 /* HCBaseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCBaseDAO.m; sourceTree = "<group>"; };
-		BF49A13E1ACF9B82006DACF4 /* HCBaseDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBaseDBHelper.h; sourceTree = "<group>"; };
-		BF49A13F1ACF9B82006DACF4 /* HCBaseDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCBaseDBHelper.m; sourceTree = "<group>"; };
-		BF49A1401ACF9B82006DACF4 /* HCDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDBManager.h; sourceTree = "<group>"; };
-		BF49A1411ACF9B82006DACF4 /* HCDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDBManager.m; sourceTree = "<group>"; };
-		BF49A1421ACF9B82006DACF4 /* SQLBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLBaseModel.h; sourceTree = "<group>"; };
-		BF49A1431ACF9B82006DACF4 /* SQLBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLBaseModel.m; sourceTree = "<group>"; };
-		BF49A1441ACF9B82006DACF4 /* SQLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLHelper.h; sourceTree = "<group>"; };
-		BF49A1451ACF9B82006DACF4 /* SQLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLHelper.m; sourceTree = "<group>"; };
-		BF49A1461ACF9B82006DACF4 /* TestSQLBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSQLBaseModel.h; sourceTree = "<group>"; };
-		BF49A1471ACF9B82006DACF4 /* TestSQLBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSQLBaseModel.m; sourceTree = "<group>"; };
-		BF49A1491ACF9B82006DACF4 /* PABlockingHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PABlockingHUD.h; sourceTree = "<group>"; };
-		BF49A14A1ACF9B82006DACF4 /* PABlockingHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PABlockingHUD.m; sourceTree = "<group>"; };
-		BF49A14B1ACF9B82006DACF4 /* PABlockingHUDDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PABlockingHUDDelegate.h; sourceTree = "<group>"; };
-		BF49A14C1ACF9B82006DACF4 /* PABlockingStrokeHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PABlockingStrokeHUD.h; sourceTree = "<group>"; };
-		BF49A14D1ACF9B82006DACF4 /* PABlockingStrokeHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PABlockingStrokeHUD.m; sourceTree = "<group>"; };
-		BF49A14E1ACF9B82006DACF4 /* PAHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAHUD.h; sourceTree = "<group>"; };
-		BF49A14F1ACF9B82006DACF4 /* PAHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAHUD.m; sourceTree = "<group>"; };
-		BF49A1501ACF9B82006DACF4 /* PAHUDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAHUDCommon.h; sourceTree = "<group>"; };
-		BF49A1511ACF9B82006DACF4 /* PAHUDService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAHUDService.h; sourceTree = "<group>"; };
-		BF49A1521ACF9B82006DACF4 /* PAHUDService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAHUDService.m; sourceTree = "<group>"; };
-		BF49A1531ACF9B82006DACF4 /* PAPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAPathView.h; sourceTree = "<group>"; };
-		BF49A1541ACF9B82006DACF4 /* PAPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAPathView.m; sourceTree = "<group>"; };
-		BF49A1551ACF9B82006DACF4 /* PAPromptHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAPromptHUD.h; sourceTree = "<group>"; };
-		BF49A1561ACF9B82006DACF4 /* PAPromptHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAPromptHUD.m; sourceTree = "<group>"; };
-		BF49A1571ACF9B82006DACF4 /* PAPromptHUDDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAPromptHUDDelegate.h; sourceTree = "<group>"; };
-		BF49A1581ACF9B82006DACF4 /* PAStrokeHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAStrokeHUDView.h; sourceTree = "<group>"; };
-		BF49A1591ACF9B82006DACF4 /* PAStrokeHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAStrokeHUDView.m; sourceTree = "<group>"; };
-		BF49A15A1ACF9B82006DACF4 /* PASVPromptHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PASVPromptHUD.h; sourceTree = "<group>"; };
-		BF49A15B1ACF9B82006DACF4 /* PASVPromptHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PASVPromptHUD.m; sourceTree = "<group>"; };
-		BF49A15D1ACF9B82006DACF4 /* Asyncing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asyncing.h; sourceTree = "<group>"; };
-		BF49A15E1ACF9B82006DACF4 /* HCBasicAsyncer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBasicAsyncer.h; sourceTree = "<group>"; };
-		BF49A15F1ACF9B82006DACF4 /* HCBasicAsyncer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCBasicAsyncer.m; sourceTree = "<group>"; };
-		BF49A1601ACF9B82006DACF4 /* HCHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCHTTPRequest.h; sourceTree = "<group>"; };
-		BF49A1611ACF9B82006DACF4 /* HCHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCHTTPRequest.m; sourceTree = "<group>"; };
-		BF49A1621ACF9B82006DACF4 /* HCRequestBaseApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCRequestBaseApi.h; sourceTree = "<group>"; };
-		BF49A1631ACF9B82006DACF4 /* HCRequestBaseApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCRequestBaseApi.m; sourceTree = "<group>"; };
-		BF49A1671ACF9B82006DACF4 /* HCUtilityFuc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCUtilityFuc.h; sourceTree = "<group>"; };
-		BF49A1681ACF9B82006DACF4 /* HCUtilityMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCUtilityMacro.h; sourceTree = "<group>"; };
-		BF49A1C41AD2554A006DACF4 /* UIBarButtonItem+Extend.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "UIBarButtonItem+Extend.bundle"; sourceTree = "<group>"; };
+		BF49A1C61AD2689C006DACF4 /* HCKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HCKit; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,7 +99,7 @@
 		BF49A00D1ACF6D8A006DACF4 /* HCKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BF49A1071ACF9B82006DACF4 /* HCKit */,
+				BF49A1C61AD2689C006DACF4 /* HCKit */,
 				BF49A0121ACF6D8A006DACF4 /* AppDelegate.h */,
 				BF49A0131ACF6D8A006DACF4 /* AppDelegate.m */,
 				BF49A0151ACF6D8A006DACF4 /* ViewController.h */,
@@ -265,166 +137,6 @@
 				BF49A0291ACF6D8A006DACF4 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BF49A1071ACF9B82006DACF4 /* HCKit */ = {
-			isa = PBXGroup;
-			children = (
-				BF49A1081ACF9B82006DACF4 /* baseViewControllers */,
-				BF49A10F1ACF9B82006DACF4 /* classes */,
-				BF49A11C1ACF9B82006DACF4 /* CommonCategory */,
-				BF49A13A1ACF9B82006DACF4 /* HCKit.h */,
-				BF49A13B1ACF9B82006DACF4 /* HCSQLHelp */,
-				BF49A1481ACF9B82006DACF4 /* HUDService */,
-				BF49A15C1ACF9B82006DACF4 /* RequestApi */,
-				BF49A1641ACF9B82006DACF4 /* sources */,
-				BF49A1661ACF9B82006DACF4 /* utility */,
-			);
-			path = HCKit;
-			sourceTree = "<group>";
-		};
-		BF49A1081ACF9B82006DACF4 /* baseViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				BF49A1091ACF9B82006DACF4 /* BABasicNavigationController.h */,
-				BF49A10A1ACF9B82006DACF4 /* BABasicNavigationController.m */,
-				BF49A10B1ACF9B82006DACF4 /* BABasicTableViewController.h */,
-				BF49A10C1ACF9B82006DACF4 /* BABasicTableViewController.m */,
-				BF49A10D1ACF9B82006DACF4 /* BABasicViewController.h */,
-				BF49A10E1ACF9B82006DACF4 /* BABasicViewController.m */,
-			);
-			path = baseViewControllers;
-			sourceTree = "<group>";
-		};
-		BF49A10F1ACF9B82006DACF4 /* classes */ = {
-			isa = PBXGroup;
-			children = (
-				BF49A1101ACF9B82006DACF4 /* HCDiskCache.h */,
-				BF49A1111ACF9B82006DACF4 /* HCDiskCache.m */,
-				BF49A1121ACF9B82006DACF4 /* HCProfileService.h */,
-				BF49A1131ACF9B82006DACF4 /* HCProfileService.m */,
-				BF49A1141ACF9B82006DACF4 /* PAImageProcessHelper.h */,
-				BF49A1151ACF9B82006DACF4 /* PAImageProcessHelper.m */,
-				BF49A1161ACF9B82006DACF4 /* PALinkButton.h */,
-				BF49A1171ACF9B82006DACF4 /* PALinkButton.m */,
-				BF49A1181ACF9B82006DACF4 /* PAUserDiskCache.h */,
-				BF49A1191ACF9B82006DACF4 /* PAUserDiskCache.m */,
-				BF49A11A1ACF9B82006DACF4 /* PAWebViewController.h */,
-				BF49A11B1ACF9B82006DACF4 /* PAWebViewController.m */,
-			);
-			path = classes;
-			sourceTree = "<group>";
-		};
-		BF49A11C1ACF9B82006DACF4 /* CommonCategory */ = {
-			isa = PBXGroup;
-			children = (
-				BF49A11D1ACF9B82006DACF4 /* CommonCategory.h */,
-				BF49A11E1ACF9B82006DACF4 /* NSData+Extend.h */,
-				BF49A11F1ACF9B82006DACF4 /* NSData+Extend.m */,
-				BF49A1201ACF9B82006DACF4 /* NSDate+Extend.h */,
-				BF49A1211ACF9B82006DACF4 /* NSDate+Extend.m */,
-				BF49A1221ACF9B82006DACF4 /* NSDate+ServerTime.h */,
-				BF49A1231ACF9B82006DACF4 /* NSDate+ServerTime.m */,
-				BF49A1241ACF9B82006DACF4 /* NSObject+UserInfo.h */,
-				BF49A1251ACF9B82006DACF4 /* NSObject+UserInfo.m */,
-				BF49A1261ACF9B82006DACF4 /* NSString+Extend.h */,
-				BF49A1271ACF9B82006DACF4 /* NSString+Extend.m */,
-				BF49A1281ACF9B82006DACF4 /* NSString+HXAddtions.h */,
-				BF49A1291ACF9B82006DACF4 /* NSString+HXAddtions.m */,
-				BF49A12A1ACF9B82006DACF4 /* UIBarButtonItem+Extend.h */,
-				BF49A12B1ACF9B82006DACF4 /* UIBarButtonItem+Extend.m */,
-				BF49A12C1ACF9B82006DACF4 /* UIDevice+Resolutions.h */,
-				BF49A12D1ACF9B82006DACF4 /* UIDevice+Resolutions.m */,
-				BF49A12E1ACF9B82006DACF4 /* UIImage+Extend.h */,
-				BF49A12F1ACF9B82006DACF4 /* UIImage+Extend.m */,
-				BF49A1301ACF9B82006DACF4 /* UIImage+ImageBlur.h */,
-				BF49A1311ACF9B82006DACF4 /* UIImage+ImageBlur.m */,
-				BF49A1321ACF9B82006DACF4 /* UILabel+Extend.h */,
-				BF49A1331ACF9B82006DACF4 /* UILabel+Extend.m */,
-				BF49A1341ACF9B82006DACF4 /* UITableView+Appearance.h */,
-				BF49A1351ACF9B82006DACF4 /* UITableView+Appearance.m */,
-				BF49A1361ACF9B82006DACF4 /* UITextView+Appearance.h */,
-				BF49A1371ACF9B82006DACF4 /* UITextView+Appearance.m */,
-				BF49A1381ACF9B82006DACF4 /* UIView+Extend.h */,
-				BF49A1391ACF9B82006DACF4 /* UIView+Extend.m */,
-			);
-			path = CommonCategory;
-			sourceTree = "<group>";
-		};
-		BF49A13B1ACF9B82006DACF4 /* HCSQLHelp */ = {
-			isa = PBXGroup;
-			children = (
-				BF49A13C1ACF9B82006DACF4 /* HCBaseDAO.h */,
-				BF49A13D1ACF9B82006DACF4 /* HCBaseDAO.m */,
-				BF49A13E1ACF9B82006DACF4 /* HCBaseDBHelper.h */,
-				BF49A13F1ACF9B82006DACF4 /* HCBaseDBHelper.m */,
-				BF49A1401ACF9B82006DACF4 /* HCDBManager.h */,
-				BF49A1411ACF9B82006DACF4 /* HCDBManager.m */,
-				BF49A1421ACF9B82006DACF4 /* SQLBaseModel.h */,
-				BF49A1431ACF9B82006DACF4 /* SQLBaseModel.m */,
-				BF49A1441ACF9B82006DACF4 /* SQLHelper.h */,
-				BF49A1451ACF9B82006DACF4 /* SQLHelper.m */,
-				BF49A1461ACF9B82006DACF4 /* TestSQLBaseModel.h */,
-				BF49A1471ACF9B82006DACF4 /* TestSQLBaseModel.m */,
-			);
-			path = HCSQLHelp;
-			sourceTree = "<group>";
-		};
-		BF49A1481ACF9B82006DACF4 /* HUDService */ = {
-			isa = PBXGroup;
-			children = (
-				BF49A1491ACF9B82006DACF4 /* PABlockingHUD.h */,
-				BF49A14A1ACF9B82006DACF4 /* PABlockingHUD.m */,
-				BF49A14B1ACF9B82006DACF4 /* PABlockingHUDDelegate.h */,
-				BF49A14C1ACF9B82006DACF4 /* PABlockingStrokeHUD.h */,
-				BF49A14D1ACF9B82006DACF4 /* PABlockingStrokeHUD.m */,
-				BF49A14E1ACF9B82006DACF4 /* PAHUD.h */,
-				BF49A14F1ACF9B82006DACF4 /* PAHUD.m */,
-				BF49A1501ACF9B82006DACF4 /* PAHUDCommon.h */,
-				BF49A1511ACF9B82006DACF4 /* PAHUDService.h */,
-				BF49A1521ACF9B82006DACF4 /* PAHUDService.m */,
-				BF49A1531ACF9B82006DACF4 /* PAPathView.h */,
-				BF49A1541ACF9B82006DACF4 /* PAPathView.m */,
-				BF49A1551ACF9B82006DACF4 /* PAPromptHUD.h */,
-				BF49A1561ACF9B82006DACF4 /* PAPromptHUD.m */,
-				BF49A1571ACF9B82006DACF4 /* PAPromptHUDDelegate.h */,
-				BF49A1581ACF9B82006DACF4 /* PAStrokeHUDView.h */,
-				BF49A1591ACF9B82006DACF4 /* PAStrokeHUDView.m */,
-				BF49A15A1ACF9B82006DACF4 /* PASVPromptHUD.h */,
-				BF49A15B1ACF9B82006DACF4 /* PASVPromptHUD.m */,
-			);
-			path = HUDService;
-			sourceTree = "<group>";
-		};
-		BF49A15C1ACF9B82006DACF4 /* RequestApi */ = {
-			isa = PBXGroup;
-			children = (
-				BF49A15D1ACF9B82006DACF4 /* Asyncing.h */,
-				BF49A15E1ACF9B82006DACF4 /* HCBasicAsyncer.h */,
-				BF49A15F1ACF9B82006DACF4 /* HCBasicAsyncer.m */,
-				BF49A1601ACF9B82006DACF4 /* HCHTTPRequest.h */,
-				BF49A1611ACF9B82006DACF4 /* HCHTTPRequest.m */,
-				BF49A1621ACF9B82006DACF4 /* HCRequestBaseApi.h */,
-				BF49A1631ACF9B82006DACF4 /* HCRequestBaseApi.m */,
-			);
-			path = RequestApi;
-			sourceTree = "<group>";
-		};
-		BF49A1641ACF9B82006DACF4 /* sources */ = {
-			isa = PBXGroup;
-			children = (
-				BF49A1C41AD2554A006DACF4 /* UIBarButtonItem+Extend.bundle */,
-			);
-			path = sources;
-			sourceTree = "<group>";
-		};
-		BF49A1661ACF9B82006DACF4 /* utility */ = {
-			isa = PBXGroup;
-			children = (
-				BF49A1671ACF9B82006DACF4 /* HCUtilityFuc.h */,
-				BF49A1681ACF9B82006DACF4 /* HCUtilityMacro.h */,
-			);
-			path = utility;
 			sourceTree = "<group>";
 		};
 		DC8B942C61BC59EC4219EB0D /* Pods */ = {
@@ -518,10 +230,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF49A1C71AD2689C006DACF4 /* HCKit in Resources */,
 				BF49A01A1ACF6D8A006DACF4 /* Main.storyboard in Resources */,
 				BF49A01F1ACF6D8A006DACF4 /* LaunchScreen.xib in Resources */,
 				BF49A01C1ACF6D8A006DACF4 /* Images.xcassets in Resources */,
-				BF49A1C51AD2554A006DACF4 /* UIBarButtonItem+Extend.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,49 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF49A1881ACF9B82006DACF4 /* PAHUD.m in Sources */,
-				BF49A16B1ACF9B82006DACF4 /* BABasicViewController.m in Sources */,
-				BF49A18B1ACF9B82006DACF4 /* PAPromptHUD.m in Sources */,
-				BF49A1781ACF9B82006DACF4 /* UIBarButtonItem+Extend.m in Sources */,
-				BF49A17A1ACF9B82006DACF4 /* UIImage+Extend.m in Sources */,
 				BF49A0171ACF6D8A006DACF4 /* ViewController.m in Sources */,
-				BF49A18F1ACF9B82006DACF4 /* HCHTTPRequest.m in Sources */,
-				BF49A17B1ACF9B82006DACF4 /* UIImage+ImageBlur.m in Sources */,
-				BF49A1871ACF9B82006DACF4 /* PABlockingStrokeHUD.m in Sources */,
-				BF49A1761ACF9B82006DACF4 /* NSString+Extend.m in Sources */,
-				BF49A1731ACF9B82006DACF4 /* NSDate+Extend.m in Sources */,
-				BF49A1801ACF9B82006DACF4 /* HCBaseDAO.m in Sources */,
-				BF49A17D1ACF9B82006DACF4 /* UITableView+Appearance.m in Sources */,
-				BF49A1851ACF9B82006DACF4 /* TestSQLBaseModel.m in Sources */,
-				BF49A18E1ACF9B82006DACF4 /* HCBasicAsyncer.m in Sources */,
-				BF49A16D1ACF9B82006DACF4 /* HCProfileService.m in Sources */,
-				BF49A1691ACF9B82006DACF4 /* BABasicNavigationController.m in Sources */,
-				BF49A1701ACF9B82006DACF4 /* PAUserDiskCache.m in Sources */,
-				BF49A18A1ACF9B82006DACF4 /* PAPathView.m in Sources */,
-				BF49A1721ACF9B82006DACF4 /* NSData+Extend.m in Sources */,
 				BF49A0141ACF6D8A006DACF4 /* AppDelegate.m in Sources */,
-				BF49A1771ACF9B82006DACF4 /* NSString+HXAddtions.m in Sources */,
-				BF49A1811ACF9B82006DACF4 /* HCBaseDBHelper.m in Sources */,
-				BF49A1741ACF9B82006DACF4 /* NSDate+ServerTime.m in Sources */,
-				BF49A1821ACF9B82006DACF4 /* HCDBManager.m in Sources */,
 				BF49A0111ACF6D8A006DACF4 /* main.m in Sources */,
-				BF49A1831ACF9B82006DACF4 /* SQLBaseModel.m in Sources */,
-				BF49A17F1ACF9B82006DACF4 /* UIView+Extend.m in Sources */,
-				BF49A1891ACF9B82006DACF4 /* PAHUDService.m in Sources */,
-				BF49A1841ACF9B82006DACF4 /* SQLHelper.m in Sources */,
-				BF49A17C1ACF9B82006DACF4 /* UILabel+Extend.m in Sources */,
-				BF49A17E1ACF9B82006DACF4 /* UITextView+Appearance.m in Sources */,
-				BF49A1791ACF9B82006DACF4 /* UIDevice+Resolutions.m in Sources */,
-				BF49A16E1ACF9B82006DACF4 /* PAImageProcessHelper.m in Sources */,
-				BF49A1901ACF9B82006DACF4 /* HCRequestBaseApi.m in Sources */,
-				BF49A16C1ACF9B82006DACF4 /* HCDiskCache.m in Sources */,
-				BF49A1751ACF9B82006DACF4 /* NSObject+UserInfo.m in Sources */,
-				BF49A1861ACF9B82006DACF4 /* PABlockingHUD.m in Sources */,
-				BF49A16F1ACF9B82006DACF4 /* PALinkButton.m in Sources */,
-				BF49A1711ACF9B82006DACF4 /* PAWebViewController.m in Sources */,
-				BF49A18C1ACF9B82006DACF4 /* PAStrokeHUDView.m in Sources */,
-				BF49A16A1ACF9B82006DACF4 /* BABasicTableViewController.m in Sources */,
-				BF49A18D1ACF9B82006DACF4 /* PASVPromptHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
