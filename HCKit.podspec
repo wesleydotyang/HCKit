@@ -132,35 +132,51 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+	s.ios.dependency  'BlocksKit', '~> 2.2.3'
 
 
 s.subspec "RequestApi" do |ss|
-    ss.source_files = "HCKit/RequestApi/*.*"
+   	 ss.source_files = "HCKit/RequestApi/*.*"
+   	ss.ios.dependency  'AFNetworking', '~> 2.3.1'
+	ss.ios.dependency  'libextobjc', '~> 0.4'
+    ss.ios.deployment_target = “6.0”
+
+
 end
 
 s.subspec "Utility" do |ss|
-    ss.source_files = "HCKit/Utility/*.*"
+  	  ss.source_files = "HCKit/Utility/*.*"
 
 end
 s.subspec "CommonCategory" do |ss|
-    ss.source_files = "HCKit/CommonCategory/*.*"
-    ss.public_header_files = "HCKit/CommonCategory/CommonCategory.h"
+   	 ss.source_files = "HCKit/CommonCategory/*.*"
+   	 ss.public_header_files = "HCKit/CommonCategory/CommonCategory.h"
 end
 s.subspec "HCSQLHelp" do |ss|
-    ss.source_files = "HCKit/HCSQLHelp/*.*"
+  	  ss.source_files = "HCKit/HCSQLHelp/*.*"
 end
 s.subspec "reSources" do |ss|
-    ss.source_files = "HCKit/sources/*.*"
+    	ss.source_files = "HCKit/sources/*.*"
+	ss.ios.dependency  'FMDB', '~> 2.3'
+	ss.ios.dependency  'FMDBHelpers', '~> 0.0.7'
+
 end
 s.subspec "Classes" do |ss|
-    ss.source_files = "HCKit/classes/*.*"
+  	  ss.source_files = "HCKit/classes/*.*"
 end
 s.subspec "BaseViewControllers" do |ss|
-    ss.source_files = "HCKit/baseViewControllers/*.*"
-    ss.frameworks = "UIKit"
+   	 ss.source_files = "HCKit/baseViewControllers/*.*"
+    	ss.frameworks = "UIKit"
+	ss.ios.dependency  'HTDelegateProxy', '~> 1.0.1'
+
 end
 s.subspec "HUDService" do |ss|
-    ss.source_files = "HCKit/HUDService/*.*"
+   	 ss.source_files = "HCKit/HUDService/*.*"
+    	ss.ios.dependency  'SVProgressHUD', '~> 1.0'
+	ss.ios.dependency  'SIAlertView', '~> 1.3'
+   	 ss.ios.deployment_target = "6.1"
+
+
 end
 
 end
