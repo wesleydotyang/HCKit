@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    UIImageView *imageview = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+    [imageview setImage:[UIImage imageNamed:@"UIBarButtonItem+Extend.bundle/back_black@2x.png"]];
+//    [imageview setBackgroundColor:[UIColor redColor]];
+    [self.view addSubview:imageview];
+    
 }
 
 - (void)didReceiveMemoryWarning {

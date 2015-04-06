@@ -135,7 +135,7 @@ Pod::Spec.new do |s|
 
 
 s.subspec "RequestApi" do |ss|
-    ss.source_files = "RequestApi/*.*"
+    ss.source_files = "HCKit/RequestApi/*.*"
 end
 
 s.subspec "Utility" do |ss|
@@ -149,14 +149,15 @@ end
 s.subspec "HCSQLHelp" do |ss|
     ss.source_files = "HCKit/HCSQLHelp/*.*"
 end
-s.subspec "sources" do |ss|
+s.subspec "reSources" do |ss|
     ss.source_files = "HCKit/sources/*.*"
 end
-s.subspec "classes" do |ss|
+s.subspec "Classes" do |ss|
     ss.source_files = "HCKit/classes/*.*"
 end
-s.subspec "baseViewControllers" do |ss|
+s.subspec "BaseViewControllers" do |ss|
     ss.source_files = "HCKit/baseViewControllers/*.*"
+    ss.frameworks = "UIKit"
 end
 s.subspec "HUDService" do |ss|
     ss.source_files = "HCKit/HUDService/*.*"

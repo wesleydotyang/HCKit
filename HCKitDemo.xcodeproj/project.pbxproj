@@ -55,7 +55,7 @@
 		BF49A18E1ACF9B82006DACF4 /* HCBasicAsyncer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A15F1ACF9B82006DACF4 /* HCBasicAsyncer.m */; };
 		BF49A18F1ACF9B82006DACF4 /* HCHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1611ACF9B82006DACF4 /* HCHTTPRequest.m */; };
 		BF49A1901ACF9B82006DACF4 /* HCRequestBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49A1631ACF9B82006DACF4 /* HCRequestBaseApi.m */; };
-		BF49A1911ACF9B82006DACF4 /* back_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF49A1651ACF9B82006DACF4 /* back_black@2x.png */; };
+		BF49A1C51AD2554A006DACF4 /* UIBarButtonItem+Extend.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF49A1C41AD2554A006DACF4 /* UIBarButtonItem+Extend.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,9 +172,9 @@
 		BF49A1611ACF9B82006DACF4 /* HCHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCHTTPRequest.m; sourceTree = "<group>"; };
 		BF49A1621ACF9B82006DACF4 /* HCRequestBaseApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCRequestBaseApi.h; sourceTree = "<group>"; };
 		BF49A1631ACF9B82006DACF4 /* HCRequestBaseApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCRequestBaseApi.m; sourceTree = "<group>"; };
-		BF49A1651ACF9B82006DACF4 /* back_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_black@2x.png"; sourceTree = "<group>"; };
 		BF49A1671ACF9B82006DACF4 /* HCUtilityFuc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCUtilityFuc.h; sourceTree = "<group>"; };
 		BF49A1681ACF9B82006DACF4 /* HCUtilityMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCUtilityMacro.h; sourceTree = "<group>"; };
+		BF49A1C41AD2554A006DACF4 /* UIBarButtonItem+Extend.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "UIBarButtonItem+Extend.bundle"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -413,7 +413,7 @@
 		BF49A1641ACF9B82006DACF4 /* sources */ = {
 			isa = PBXGroup;
 			children = (
-				BF49A1651ACF9B82006DACF4 /* back_black@2x.png */,
+				BF49A1C41AD2554A006DACF4 /* UIBarButtonItem+Extend.bundle */,
 			);
 			path = sources;
 			sourceTree = "<group>";
@@ -521,7 +521,7 @@
 				BF49A01A1ACF6D8A006DACF4 /* Main.storyboard in Resources */,
 				BF49A01F1ACF6D8A006DACF4 /* LaunchScreen.xib in Resources */,
 				BF49A01C1ACF6D8A006DACF4 /* Images.xcassets in Resources */,
-				BF49A1911ACF9B82006DACF4 /* back_black@2x.png in Resources */,
+				BF49A1C51AD2554A006DACF4 /* UIBarButtonItem+Extend.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
