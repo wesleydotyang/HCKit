@@ -145,34 +145,34 @@ s.subspec "RequestApi" do |ss|
 end
 
 s.subspec "Utility" do |ss|
-  	  ss.source_files = "HCKit/Utility/*.*"
+  	  ss.source_files = "HCKit/*.*"
 
 end
 s.subspec "CommonCategory" do |ss|
-   	 ss.source_files = "HCKit/CommonCategory/*.*"
+   	 ss.source_files = "HCKit/*.*"
    	 ss.public_header_files = "HCKit/CommonCategory/CommonCategory.h"
 end
 s.subspec "HCSQLHelp" do |ss|
-  	  ss.source_files = "HCKit/HCSQLHelp/*.*"
+  	  ss.source_files = "HCKit/*.*"
 	ss.ios.dependency  'FMDB', '~> 2.3'
 	ss.ios.dependency  'FMDBHelpers', '~> 0.0.7'
 
 end
 s.subspec "reSources" do |ss|
-    	ss.source_files = "HCKit/reSources/*.*"
+    	ss.source_files = "HCKit/*.*"
 
 end
 s.subspec "Classes" do |ss|
-  	  ss.source_files = "HCKit/classes/*.*"
+  	  ss.source_files = "HCKit/*.*"
 end
 s.subspec "BaseViewControllers" do |ss|
-   	 ss.source_files = "HCKit/baseViewControllers/*.*"
+   	 ss.source_files = "HCKit/*.*"
     	ss.frameworks = "UIKit"
 	ss.ios.dependency  'HTDelegateProxy', '~> 1.0.1'
 
 end
 s.subspec "HUDService" do |ss|
-   	 ss.source_files = "HCKit/HUDService/*.*"
+   	 ss.source_files = "HCKit/*.*"
     	ss.ios.dependency  'SVProgressHUD', '~> 1.0'
 	ss.ios.dependency  'SIAlertView', '~> 1.3'
    	 ss.ios.deployment_target = "6.1"

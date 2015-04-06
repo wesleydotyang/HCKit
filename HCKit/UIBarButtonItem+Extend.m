@@ -10,7 +10,7 @@
 #import "UIView+BlocksKit.h"
 #import "HCUtilityMacro.h"
 
-#define pBackArrowImageName_new @"UIBarButtonItem+Extend.bundle/back_black@2x.png"
+#define pBackArrowImageName_new @"back_black"
 #define kBarRightButtonTitleColor_new UIColorFromRGB(0x1d1d1d)
 
 #define BAR_BUTTON_MIN_WIDTH 40
