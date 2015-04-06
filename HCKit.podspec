@@ -94,8 +94,8 @@ Pod::Spec.new do |s|
 
   s.public_header_files = "HCKit/*.h"
 
-s.subspec ‘RequestApi’ do |ss|
-    ss.source_files = 'RequestApi/{HCBasicAsyncer,HCRequestBaseApi}.{h,m}’
+s.subspec "RequestApi" do |ss|
+    ss.source_files = "RequestApi/{HCBasicAsyncer,HCRequestBaseApi}.{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
