@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HCKit"
-  s.version      = "0.0.1"
+  s.version      = “0.0.2”
   s.summary      = "A Kit for Hua Chen."
 
   s.description  = <<-DESC
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/huachen206/HCKit.git", :branch => "0.0.1",:submodules => true }
+  s.source       = { :git => "https://github.com/huachen206/HCKit.git", :tag => s.version,:submodules => true }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
