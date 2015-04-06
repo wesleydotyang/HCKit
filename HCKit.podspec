@@ -139,7 +139,7 @@ s.subspec "RequestApi" do |ss|
 end
 
 s.subspec "Utility" do |ss|
-    ss.source_files = "HCKit/Utility/*.*",
+    ss.source_files = "HCKit/Utility/*.*"
 
 end
 s.subspec "CommonCategory" do |ss|
