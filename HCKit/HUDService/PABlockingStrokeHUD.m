@@ -61,7 +61,7 @@ static NSInteger showCount = 0;
 -(void) showWithText:(NSString*)msg maskType:(PAHUDMaskType)type cancelable:(BOOL) cancel HUDAnimation:(PAHUDBlockType)animation{
     DebugAssert([NSThread isMainThread], @"not on main thread");
      _hudPoped = YES;
-    NSLog(@"Strock HUD need to show,showCount = %d",showCount);
+    NSLog(@"Strock HUD need to show,showCount = %ld",(long)showCount);
     if (![_hud isShowing]) {
         [_hud showWithText:msg maskType:type cancelable:cancel HUDAnimation:animation];
         _showingHUDAnimationType = animation;
@@ -86,14 +86,14 @@ static NSInteger showCount = 0;
 {
     DebugAssert([NSThread isMainThread], @"not on main thread");
 
-    NSLog(@"Strock HUD need to dismiss ,showCount = %d",showCount);
+    NSLog(@"Strock HUD need to dismiss ,showCount = %ld",(long)showCount);
 
     // 在leftSeconds秒后，没有被调用showWithText的情况下（_hudPoped为YES说明这段时间又有showWithText）才真正dismiss。
     _hudPoped = NO;
     double leftSeconds = 0.2;
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(leftSeconds * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         if (_hudPoped == NO) {
-            NSLog(@"Strock HUD really dismiss = %d",showCount);
+            NSLog(@"Strock HUD really dismiss = %ld",(long)showCount);
             [_hud dismiss];
         }
         else{
