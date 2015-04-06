@@ -135,7 +135,7 @@ Pod::Spec.new do |s|
 
 
 s.subspec "RequestApi" do |ss|
-    ss.source_files = "HCKit/RequestApi/*.*"
+    ss.source_files = "RequestApi/*.*"
 end
 
 s.subspec "Utility" do |ss|
