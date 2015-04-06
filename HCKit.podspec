@@ -135,22 +135,31 @@ Pod::Spec.new do |s|
 
 
 s.subspec "RequestApi" do |ss|
-    ss.source_files = "HCKit/RequestApi/HCBasicAsyncer.{h,m}", "HCKit/RequestApi/HCRequestBaseApi.{h,m}", "HCKit/RequestApi/HCHTTPRequest.{h,m}", "HCKit/RequestApi/Asyncing.h"
+    ss.source_files = "HCKit/RequestApi/*.*"
 end
 
 s.subspec "Utility" do |ss|
-    ss.source_files = "HCKit/Utility/HCUtilityFuc.h","HCKit/Utility/HCUtilityMacro.h"
+    ss.source_files = "HCKit/Utility/*.*",
 
 end
 s.subspec "CommonCategory" do |ss|
-    ss.source_files = "HCKit/CommonCategory/NSData+Extend.{h,m}","HCKit/CommonCategory/NSDate+Extend.{h,m}","HCKit/CommonCategory/NSDate+ServerTime.{h,m}","HCKit/CommonCategory/NSObject+UserInfo.{h,m}","HCKit/CommonCategory/NSString+Extend.{h,m}","HCKit/CommonCategory/NSString+HXAddtions.{h,m}","HCKit/CommonCategory/UIBarButtonItem+Extend.{h,m}","HCKit/CommonCategory/UIDevice+Resolutions.{h,m}","HCKit/CommonCategory/UIImage+Extend.{h,m}","HCKit/CommonCategory/UIImage+ImageBlur.{h,m}","HCKit/CommonCategory/NUILabel+Extend.{h,m}","HCKit/CommonCategory/UITableView+Appearance.{h,m}","HCKit/CommonCategory/UITextView+Appearance.{h,m}","HCKit/CommonCategory/UIView+Extend.{h,m}"
-    ss.public_header_files = "CommonCategory.h"
+    ss.source_files = "HCKit/CommonCategory/*.*"
+    ss.public_header_files = "HCKit/CommonCategory/CommonCategory.h"
 end
 s.subspec "HCSQLHelp" do |ss|
     ss.source_files = "HCKit/HCSQLHelp/*.*"
 end
 s.subspec "sources" do |ss|
     ss.source_files = "HCKit/sources/*.*"
+end
+s.subspec "classes" do |ss|
+    ss.source_files = "HCKit/classes/*.*"
+end
+s.subspec "baseViewControllers" do |ss|
+    ss.source_files = "HCKit/baseViewControllers/*.*"
+end
+s.subspec "HUDService" do |ss|
+    ss.source_files = "HCKit/HUDService/*.*"
 end
 
 end
