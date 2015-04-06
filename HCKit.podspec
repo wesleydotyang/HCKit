@@ -146,5 +146,11 @@ s.subspec "CommonCategory" do |ss|
     ss.source_files = "HCKit/CommonCategory/NSData+Extend.{h,m}","HCKit/CommonCategory/NSDate+Extend.{h,m}","HCKit/CommonCategory/NSDate+ServerTime.{h,m}","HCKit/CommonCategory/NSObject+UserInfo.{h,m}","HCKit/CommonCategory/NSString+Extend.{h,m}","HCKit/CommonCategory/NSString+HXAddtions.{h,m}","HCKit/CommonCategory/UIBarButtonItem+Extend.{h,m}","HCKit/CommonCategory/UIDevice+Resolutions.{h,m}","HCKit/CommonCategory/UIImage+Extend.{h,m}","HCKit/CommonCategory/UIImage+ImageBlur.{h,m}","HCKit/CommonCategory/NUILabel+Extend.{h,m}","HCKit/CommonCategory/UITableView+Appearance.{h,m}","HCKit/CommonCategory/UITextView+Appearance.{h,m}","HCKit/CommonCategory/UIView+Extend.{h,m}"
     ss.public_header_files = "CommonCategory.h"
 end
+s.subspec "HCSQLHelp" do |ss|
+    ss.source_files = "HCKit/HCSQLHelp/*.*"
+end
+s.subspec "sources" do |ss|
+    ss.source_files = "HCKit/sources/*.*"
+end
 
 end
