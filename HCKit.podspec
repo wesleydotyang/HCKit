@@ -160,7 +160,7 @@ s.subspec "HCSQLHelp" do |ss|
 
 end
 s.subspec "reSources" do |ss|
-    	ss.source_files = "HCKit/*.bundle”
+    	ss.source_files = "HCKit/*.bundle"
 
 end
 s.subspec "Classes" do |ss|
