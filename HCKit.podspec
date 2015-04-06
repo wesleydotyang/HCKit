@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HCKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A Kit for Hua Chen."
 
   s.description  = <<-DESC
@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+    s.ios.deployment_target = "6.1"
   # s.osx.deployment_target = "10.7"
 
 
