@@ -136,7 +136,7 @@ Pod::Spec.new do |s|
 
 s.subspec "RequestApi" do |ss|
     ss.source_files = "HCKit/RequestApi/HCBasicAsyncer.{h,m}", "HCKit/HCRequestBaseApi.{h,m}", "HCKit/HCHTTPRequest.{h,m}", "Asyncing.h"
-s.subspec “Rtility" do |ss|
+s.subspec "Utility" do |ss|
     ss.source_files = "HCKit/Utility/HCUtilityFuc.h","HCKit/Utility/HCUtilityMacro.h"
 
 end
