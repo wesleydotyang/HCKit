@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-   s.resources = "HCKit/reSources/UIBarButtonItem+Extend.bundle"
+   s.resources = "HCKit/UIBarButtonItem+Extend.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -157,10 +157,6 @@ s.subspec "HCSQLHelp" do |ss|
   	  ss.source_files = "HCKit/HCBaseDAO.*","HCKit/HCBaseDBHelper.*","HCKit/HCDBManager.*","HCKit/SQLBaseModel.*","HCKit/SQLHelper.*","HCKit/TestSQLBaseModel.*"
 	ss.ios.dependency  'FMDB', '~> 2.3'
 	ss.ios.dependency  'FMDBHelpers', '~> 0.0.7'
-
-end
-s.subspec "reSources" do |ss|
-    	ss.source_files = "HCKit/*.bundle"
 
 end
 s.subspec "Classes" do |ss|
