@@ -135,8 +135,17 @@ Pod::Spec.new do |s|
 	s.ios.dependency  'BlocksKit', '~> 2.2.3'
 
 
+s.subspec "Utility" do |ss|
+  	  ss.source_files = "HCKit/HCUtilityFuc.h","HCKit/HCUtilityMacro.h"
+    	ss.ios.deployment_target = "6.0"
+
+
+end
+
+
 s.subspec "RequestApi" do |ss|
-   	 ss.source_files = "HCKit/HCBasicAsyncer.{h,m}", "HCKit/HCRequestBaseApi.{h,m}", "HCKit/HCHTTPRequest.{h,m}", "HCKit/Asyncing.h"
+	ss.dependency "HCKit/Utility"
+   	ss.source_files = "HCKit/HCBasicAsyncer.{h,m}", "HCKit/HCRequestBaseApi.{h,m}", "HCKit/HCHTTPRequest.{h,m}", "HCKit/Asyncing.h"
 
    	ss.ios.dependency  'AFNetworking', '~> 2.3.1'
 	ss.ios.dependency  'libextobjc', '~> 0.4'
@@ -145,13 +154,10 @@ s.subspec "RequestApi" do |ss|
 
 end
 
-s.subspec "Utility" do |ss|
-  	  ss.source_files = "HCKit/HCUtilityFuc.h","HCKit/HCUtilityMacro.h"
-
-end
 s.subspec "CommonCategory" do |ss|
-   	 ss.source_files = "HCKit/NSData+Extend.{h,m}","HCKit/NSDate+Extend.{h,m}","HCKit/NSDate+ServerTime.{h,m}","HCKit/NSObject+UserInfo.{h,m}","HCKit/NSString+Extend.{h,m}","HCKit/NSString+HXAddtions.{h,m}","HCKit/UIBarButtonItem+Extend.{h,m}","HCKit/UIDevice+Resolutions.{h,m}","HCKit/UIImage+Extend.{h,m}","HCKit/UIImage+ImageBlur.{h,m}","HCKit/NUILabel+Extend.{h,m}","HCKit/UITableView+Appearance.{h,m}","HCKit/UITextView+Appearance.{h,m}","HCKit/UIView+Extend.{h,m}"
    	 ss.public_header_files = "HCKit/CommonCategory.h"
+
+   	 ss.source_files = "HCKit/NSData+Extend.{h,m}","HCKit/NSDate+Extend.{h,m}","HCKit/NSDate+ServerTime.{h,m}","HCKit/NSObject+UserInfo.{h,m}","HCKit/NSString+Extend.{h,m}","HCKit/NSString+HXAddtions.{h,m}","HCKit/UIBarButtonItem+Extend.{h,m}","HCKit/UIDevice+Resolutions.{h,m}","HCKit/UIImage+Extend.{h,m}","HCKit/UIImage+ImageBlur.{h,m}","HCKit/NUILabel+Extend.{h,m}","HCKit/UITableView+Appearance.{h,m}","HCKit/UITextView+Appearance.{h,m}","HCKit/UIView+Extend.{h,m}"
 end
 s.subspec "HCSQLHelp" do |ss|
   	  ss.source_files = "HCKit/HCBaseDAO.*","HCKit/HCBaseDBHelper.*","HCKit/HCDBManager.*","HCKit/SQLBaseModel.*","HCKit/SQLHelper.*","HCKit/TestSQLBaseModel.*"
