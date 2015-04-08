@@ -136,7 +136,8 @@ Pod::Spec.new do |s|
 
 
 s.subspec "Utility" do |ss|
-  	  ss.source_files = "HCKit/HCUtilityFuc.h","HCKit/HCUtilityMacro.h"
+  	  ss.source_files = "HCKit/Utility/*.*"
+  #	  ss.source_files = "HCKit/HCUtilityFuc.h","HCKit/HCUtilityMacro.h"
     	ss.ios.deployment_target = "6.0"
 
 
@@ -145,7 +146,8 @@ end
 
 s.subspec "RequestApi" do |ss|
 	ss.dependency "HCKit/Utility"
-   	ss.source_files = "HCKit/HCBasicAsyncer.{h,m}", "HCKit/HCRequestBaseApi.{h,m}", "HCKit/HCHTTPRequest.{h,m}", "HCKit/Asyncing.h"
+   #	ss.source_files = "HCKit/HCBasicAsyncer.{h,m}", "HCKit/HCRequestBaseApi.{h,m}", "HCKit/HCHTTPRequest.{h,m}", "HCKit/Asyncing.h"
+   	 ss.source_files = "HCKit/RequestApi/*.*"
 
    	ss.ios.dependency  'AFNetworking', '~> 2.3.1'
 	ss.ios.dependency  'libextobjc', '~> 0.4'
@@ -155,27 +157,39 @@ s.subspec "RequestApi" do |ss|
 end
 
 s.subspec "CommonCategory" do |ss|
-   	 ss.public_header_files = "HCKit/CommonCategory.h"
+   	 ss.source_files = "HCKit/CommonCategory/*.*"
+   	 ss.public_header_files = "HCKit/CommonCategory/CommonCategory.h"
 
-   	 ss.source_files = "HCKit/NSData+Extend.{h,m}","HCKit/NSDate+Extend.{h,m}","HCKit/NSDate+ServerTime.{h,m}","HCKit/NSObject+UserInfo.{h,m}","HCKit/NSString+Extend.{h,m}","HCKit/NSString+HXAddtions.{h,m}","HCKit/UIBarButtonItem+Extend.{h,m}","HCKit/UIDevice+Resolutions.{h,m}","HCKit/UIImage+Extend.{h,m}","HCKit/UIImage+ImageBlur.{h,m}","HCKit/NUILabel+Extend.{h,m}","HCKit/UITableView+Appearance.{h,m}","HCKit/UITextView+Appearance.{h,m}","HCKit/UIView+Extend.{h,m}"
+   	# ss.public_header_files = "HCKit/CommonCategory.h"
+
+   	# ss.source_files = "HCKit/NSData+Extend.{h,m}","HCKit/NSDate+Extend.{h,m}","HCKit/NSDate+ServerTime.{h,m}","HCKit/NSObject+UserInfo.{h,m}","HCKit/NSString+Extend.{h,m}","HCKit/NSString+HXAddtions.{h,m}","HCKit/UIBarButtonItem+Extend.{h,m}","HCKit/UIDevice+Resolutions.{h,m}","HCKit/UIImage+Extend.{h,m}","HCKit/UIImage+ImageBlur.{h,m}","HCKit/NUILabel+Extend.{h,m}","HCKit/UITableView+Appearance.{h,m}","HCKit/UITextView+Appearance.{h,m}","HCKit/UIView+Extend.{h,m}"
 end
 s.subspec "HCSQLHelp" do |ss|
-  	  ss.source_files = "HCKit/HCBaseDAO.*","HCKit/HCBaseDBHelper.*","HCKit/HCDBManager.*","HCKit/SQLBaseModel.*","HCKit/SQLHelper.*","HCKit/TestSQLBaseModel.*"
+  	  ss.source_files = "HCKit/HCSQLHelp/*.*"
+
+  	#  ss.source_files = "HCKit/HCBaseDAO.*","HCKit/HCBaseDBHelper.*","HCKit/HCDBManager.*","HCKit/SQLBaseModel.*","HCKit/SQLHelper.*","HCKit/TestSQLBaseModel.*"
 	ss.ios.dependency  'FMDB', '~> 2.3'
 	ss.ios.dependency  'FMDBHelpers', '~> 0.0.7'
 
 end
 s.subspec "Classes" do |ss|
-  	  ss.source_files = "HCKit/HCDiskCache.*","HCKit/HCProfileService.*","HCKit/PAUserDiskCache.*","HCKit/PALinkButton.*","HCKit/PAWebViewController.*","HCKit/PAImageProcessHelper.*"
+  	  ss.source_files = "HCKit/classes/*.*"
+
+  	#  ss.source_files = "HCKit/HCDiskCache.*","HCKit/HCProfileService.*","HCKit/PAUserDiskCache.*","HCKit/PALinkButton.*","HCKit/PAWebViewController.*","HCKit/PAImageProcessHelper.*"
 end
 s.subspec "BaseViewControllers" do |ss|
-   	 ss.source_files = "HCKit/BABasicNavigationController.*","HCKit/BABasicTableViewController.*","HCKit/BABasicViewController.*"
+   	 ss.source_files = "HCKit/baseViewControllers/*.*"
+
+   	# ss.source_files = "HCKit/BABasicNavigationController.*","HCKit/BABasicTableViewController.*","HCKit/BABasicViewController.*"
     	ss.frameworks = "UIKit"
 	ss.ios.dependency  'HTDelegateProxy', '~> 1.0.1'
 
 end
 s.subspec "HUDService" do |ss|
-   	 ss.source_files = "HCKit/PABlockingHUD.*","HCKit/PABlockingHUDDelegate.*","HCKit/PABlockingStrokeHUD.*","HCKit/PAHUD.*","HCKit/PAHUDCommon.*","HCKit/PAHUDService.*","HCKit/PAPromptHUD.*","HCKit/PAPromptHUDDelegate.*","HCKit/PASVPromptHUD.*","HCKit/PAStrokeHUDView.*","HCKit/PAPathView.*"
+   	 ss.source_files = "HCKit/HUDService/*.*"
+
+   	# ss.source_files = "HCKit/PABlockingHUD.*","HCKit/PABlockingHUDDelegate.*","HCKit/PABlockingStrokeHUD.*","HCKit/PAHUD.*","HCKit/PAHUDCommon.*","HCKit/PAHUDService.*","HCKit/PAPromptHUD.*","HCKit/PAPromptHUDDelegate.*","HCKit/PASVPromptHUD.*","HCKit/PAStrokeHUDView.*","HCKit/PAPathView.*"
+
     	ss.ios.dependency  'SVProgressHUD', '~> 1.0'
 	ss.ios.dependency  'SIAlertView', '~> 1.3'
    	 ss.ios.deployment_target = "6.1"
