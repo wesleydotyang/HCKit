@@ -150,8 +150,8 @@ s.subspec "Utility" do |ss|
 
 end
 s.subspec "CommonCategory" do |ss|
-   	 ss.source_files = "HCKit/CommonCategory/NSData+Extend.{h,m}","HCKit/CommonCategory/NSDate+Extend.{h,m}","HCKit/CommonCategory/NSDate+ServerTime.{h,m}","HCKit/CommonCategory/NSObject+UserInfo.{h,m}","HCKit/CommonCategory/NSString+Extend.{h,m}","HCKit/CommonCategory/NSString+HXAddtions.{h,m}","HCKit/CommonCategory/UIBarButtonItem+Extend.{h,m}","HCKit/CommonCategory/UIDevice+Resolutions.{h,m}","HCKit/CommonCategory/UIImage+Extend.{h,m}","HCKit/CommonCategory/UIImage+ImageBlur.{h,m}","HCKit/CommonCategory/NUILabel+Extend.{h,m}","HCKit/CommonCategory/UITableView+Appearance.{h,m}","HCKit/CommonCategory/UITextView+Appearance.{h,m}","HCKit/CommonCategory/UIView+Extend.{h,m}"
-   	 ss.public_header_files = "HCKit/CommonCategory/CommonCategory.h"
+   	 ss.source_files = "HCKit/NSData+Extend.{h,m}","HCKit/NSDate+Extend.{h,m}","HCKit/NSDate+ServerTime.{h,m}","HCKit/NSObject+UserInfo.{h,m}","HCKit/NSString+Extend.{h,m}","HCKit/NSString+HXAddtions.{h,m}","HCKit/UIBarButtonItem+Extend.{h,m}","HCKit/UIDevice+Resolutions.{h,m}","HCKit/UIImage+Extend.{h,m}","HCKit/UIImage+ImageBlur.{h,m}","HCKit/NUILabel+Extend.{h,m}","HCKit/UITableView+Appearance.{h,m}","HCKit/UITextView+Appearance.{h,m}","HCKit/UIView+Extend.{h,m}"
+   	 ss.public_header_files = "HCKit/CommonCategory.h"
 end
 s.subspec "HCSQLHelp" do |ss|
   	  ss.source_files = "HCKit/HCBaseDAO.*","HCKit/HCBaseDBHelper.*","HCKit/HCDBManager.*","HCKit/SQLBaseModel.*","HCKit/SQLHelper.*","HCKit/TestSQLBaseModel.*"
